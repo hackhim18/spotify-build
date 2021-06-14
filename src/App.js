@@ -15,14 +15,18 @@ useEffect(() => {
  const hash = getTokenFromUrl();
 window.location.hash="";
 const _token = hash.access_token;
+
 if(_token) {
   setToken(_token);
 
   spotify.setAccessToken(_token);
-  
+  spotify.getMe().then(user =>{
+    console.log(' ',user);
+  })
 }
 
- console.log("I have a TOKEN",token)
+
+console.log("I have a TOKEN",token)
 },[]);
 
 

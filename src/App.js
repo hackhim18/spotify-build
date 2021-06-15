@@ -38,7 +38,7 @@ console.log("I have a TOKEN",token)
  { token ?  
   <Player />
     : <Login />}
-  )
+  
  </div>
   );
 }

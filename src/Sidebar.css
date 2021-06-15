@@ -1,4 +1,5 @@
 .sidebar {
+    border: 1px solid black ;
     display: flex;
     flex-direction: column;
     flex: 0.2;
@@ -9,16 +10,4 @@
     color: white;
     background-color: #040404;
   }
-  
-  .sidebar__title {
-    margin-left: 10px;
-    padding: 5px;
-    font-size: 12px;
-  }
-  
-  .sidebar__logo {
-    margin-right: auto;
-    object-fit: contain;
-    height: 70px;
-    padding: 10px;
-  }
+   

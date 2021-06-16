@@ -10,4 +10,4 @@ function SidebarOption({ option = "test", Icon }) {
   );
 }
 
-export default SidebarOption;
+export default SidebarOption; 

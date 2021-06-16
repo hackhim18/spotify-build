@@ -9,7 +9,7 @@ export const initialState = {
   playing: false,
   item: null,
   //token:null,
-  token:"BQBi8x4bWMpprHvMYbA_PCFTGrz1ipF8Eosa20Am43ZtVlujNG02G9KHK5LIYY7VBuDexi_udLkotfosmOYQirqgipSTeeZMX5VHxqkBTvId7dqtFkDdGUNEV6v68NXo7s0VS_SILUS0b_XQJk4aN1yztktBOmdQ9AB-UyCu-QyZK_FiyyvGtZjC",
+  //token:"BQBi8x4bWMpprHvMYbA_PCFTGrz1ipF8Eosa20Am43ZtVlujNG02G9KHK5LIYY7VBuDexi_udLkotfosmOYQirqgipSTeeZMX5VHxqkBTvId7dqtFkDdGUNEV6v68NXo7s0VS_SILUS0b_XQJk4aN1yztktBOmdQ9AB-UyCu-QyZK_FiyyvGtZjC",
 };
 
 const reducer = (state, action) => {

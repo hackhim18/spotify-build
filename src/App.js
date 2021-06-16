@@ -41,19 +41,17 @@ if(_token) {
     })
     });
  
-    spotify.getUserPlaylists().then((playlists)=>{
-  dispatch({
-    type:"SET_PLAYLISTS",
-    playlists:playlists,
-  });
-  });
-}
+    spotify.getPlaylist("37i9dQZEVXcNzRrrMc0moa").then((response) =>
+    dispatch({
+      type: "SET_DISCOVER_WEEKLY",
+      discover_weekly: response,
+    })
+    )}
 },[]);
 
 
-  return ( <div className="app">
-
- { token ? <Player spotify={spotify}/> : <Login />} </div>
+ return ( <div className="app">
+{ token ? <Player spotify={spotify}/> : <Login />} </div>
   );
 }
 

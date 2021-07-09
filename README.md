@@ -6,8 +6,7 @@
 This is a code repository for the project. 
 
 This is a react application,here i have used reactjs,react-context-api for state handling,spotify api for real time authentication,material-ui for icons.
-
-##Tech Stack:
+#Tech Stack:
 ReactJS
 React-Context-api
 Sptify-api
